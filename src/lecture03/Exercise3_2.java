@@ -18,11 +18,9 @@ public class Exercise3_2 {
             array.add(mojiretu);
         }
 
-        int j=0;
         System.out.println("入力した文字列：");
         for(String mojiretu : array){
-            System.out.println("[" + j + "] " +  mojiretu);
-            j++;
+            System.out.println("[" + array.indexOf(mojiretu) + "] " +  mojiretu);
         }
 
 
